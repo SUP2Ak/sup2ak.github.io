@@ -96,7 +96,7 @@ function self.setFaction(faction, gradef)
         self.triggerEvent('esx:setFaction', self.faction)
         Player(self.source).state:set("faction", self.faction, true)
     else
-        print(('[es_extended] [^3WARNING^7] Ignoring invalid ^5.setFaction()^7 usage for ID: ^5%s^7, Job: ^5%s^7'):format(self.source, job))
+        print(('[es_extended] [^3WARNING^7] Ignoring invalid ^5.setFaction()^7 usage for ID: ^5%s^7, Faction: ^5%s^7'):format(self.source, faction))
     end
 end
 ```

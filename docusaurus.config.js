@@ -38,8 +38,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/SUP2Ak/sup2ak.github.io',
+          editUrl: 'https://github.com/SUP2Ak/sup2ak.github.io/tree/main/',
+          showLastUpdateTime: true,
         },
         /*blog: {
           showReadingTime: true,
