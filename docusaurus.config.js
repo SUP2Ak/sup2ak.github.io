@@ -128,8 +128,9 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} SUP2Ak, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: darkCodeTheme,
+        theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['lua'],
       },
     }),
 };
