@@ -39,14 +39,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://sup2ak.github.io',
+            'https://github.com/SUP2Ak/sup2ak.github.io',
         },
         /*blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://sup2ak.github.io',
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },*/
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -73,7 +73,7 @@ const config = {
             position: 'left',
             label: 'FiveM',
           },
-          //{to: '/blog', label: 'Blog', position: 'left'},
+          /*{to: '/blog', label: 'Blog', position: 'left'},*/
           //{type: 'localeDropdown', position: 'right'},
           {
             href: 'https://github.com/SUP2Ak',
@@ -89,7 +89,7 @@ const config = {
             title: 'Documentation',
             items: [
               {
-                label: 'FiveM Documentation',
+                label: 'FiveM',
                 to: '/docs/intro'
               }
             ],
@@ -99,7 +99,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/B6Z5VbA5wd',
               },
             ],
           },
@@ -115,12 +115,12 @@ const config = {
                 href: 'https://github.com/SUP2Ak',
               },
               {
-                label: 'Tebex',
-                href: 'https://supv-shops.tebex.io',
+                label: 'Youtube',
+                href: 'https://www.youtube.com/',
               },
               {
-                label: 'Youtube',
-                href: 'https://www.youtube.com',
+                label: 'Tebex',
+                href: 'https://supv-shops.tebex.io/',
               },
             ],
           },
@@ -128,7 +128,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} SUP2Ak, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
+        theme: darkCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
