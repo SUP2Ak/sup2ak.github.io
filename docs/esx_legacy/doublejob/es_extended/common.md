@@ -121,28 +121,3 @@ MySQL.ready(function()
     StartPayCheck()
 end)
 ```
-
-- <p><u>Puis remplacer la fonction entière avec ceci :</u></p>
-
-```lua
-function Core.SavePlayer(xPlayer, cb)
-	MySQL.prepare('UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `faction` = ?, `faction_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ? WHERE `identifier` = ?', {
-		json.encode(xPlayer.getAccounts(true)),
-		xPlayer.job.name,
-		xPlayer.job.grade,
-        xPlayer.faction.name,
-		xPlayer.faction.grade,
-		xPlayer.group,
-		json.encode(xPlayer.getCoords()),
-		json.encode(xPlayer.getInventory(true)),
-		json.encode(xPlayer.getLoadout(true)),
-		xPlayer.identifier
-	}, function(affectedRows)
-		if affectedRows == 1 then
-			print(('[^2INFO^7] Saved player ^5"%s^7"'):format(xPlayer.name))
-			TriggerEvent('esx:playerSaved', xPlayer.playerId, xPlayer)
-		end
-		if cb then cb() end
-	end)
-end
-```

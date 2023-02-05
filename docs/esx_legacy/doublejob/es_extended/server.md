@@ -77,7 +77,7 @@ Initiallisez la faction au joueur au joueur qui ce connecte
 
     - <p><u>Charger la faction object pour le player object</u></p>
 
-        - <p><u>En dessus de :</u></p>
+        - <p><u>Au dessus de :</u></p>
 
             ```lua
             -- Job
