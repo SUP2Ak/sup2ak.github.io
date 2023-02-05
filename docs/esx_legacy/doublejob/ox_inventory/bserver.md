@@ -36,7 +36,7 @@ Add/Refresh les `factions` au `groups`
 function server.setPlayerData(player)
 	local groups = {
 		[player.job.name] = player.job.grade,
-		[player.faction.name] = player.faction.name
+		[player.faction.name] = player.faction.grade
 	}
 
 	return {
