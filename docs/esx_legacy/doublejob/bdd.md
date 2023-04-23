@@ -3,7 +3,7 @@ postion: 1
 title: Base de donnée
 ---
 
-Ajoutez les tables sql pour les factions
+Ajoutez les tables sql pour les factions (new update comming)
 
 ```sql
 ALTER TABLE `users`
