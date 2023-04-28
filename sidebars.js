@@ -25,11 +25,11 @@ const sidebars = {
       label: 'ESX-Legacy',
       href: '/docs/esx_legacy'
     },
-    {
+    /*{
       type: 'link',
       label: 'Tebex Documentation',
       href: '/docs/category/global'
-    },
+    },*/
     {
       type: 'link',
       label: 'supv_core',
@@ -58,7 +58,7 @@ const sidebars = {
       ],
     }
   ],
-  tebex: [
+  /*tebex: [
     {
       type: 'link',
       label: '← Retour',
@@ -126,7 +126,7 @@ const sidebars = {
         },
       ],
     }
-  ],
+  ],*/
   supv_core: [
     {
       type: 'link',
