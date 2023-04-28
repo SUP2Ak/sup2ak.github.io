@@ -2,8 +2,20 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
-    paths: [/**]  
+    branches: 
+      - main
+    paths: 
+      - 'docs/**'
+      - 'website/**'
+      - 'docusaurus.config.js'
+      - 'package.json'
+      - 'yarn.lock'
+      - 'sidebars.js'
+      - 'static/**'
+      - 'src/**'
+      - 'babel.config.js'
+      - 'jest.config.js'
+      - 'jest.setup.js'  
     # Review gh actions docs if you want to further define triggers, paths, etc
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
