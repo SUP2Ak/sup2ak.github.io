@@ -20,7 +20,7 @@ const config = {
   projectName: 'sup2ak.github.io', // Usually your repo name. organizationName: 'overextended', // Usually your GitHub org/user name.
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  deploymentBranch: 'main',
+  deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
