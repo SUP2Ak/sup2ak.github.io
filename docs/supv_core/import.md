@@ -12,7 +12,6 @@ Importer le core dans vos ressource
 
 ```yaml
 ensure supv_core
-ensure es_extended
 ```
 
 <h2><u>fxmanifest.lua :</u></h2>
@@ -26,5 +25,5 @@ Il est important que ceci tout être en haut de votre script!
 ```lua
 lua54 'yes'
 
-shared_script '@supv_core/import.lua'
+shared_script '@supv_core/obj.lua'
 ```
