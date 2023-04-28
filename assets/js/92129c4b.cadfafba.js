@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[74],{5189:e=>{e.exports=JSON.parse('{"title":"Tebex Documentation","description":"Une documention en plus \ud83d\udc40","slug":"/category/global","permalink":"/docs/category/global","navigation":{"next":{"title":"supv_core","permalink":"/docs/tebex_doc/supv_core"}}}')}}]);
