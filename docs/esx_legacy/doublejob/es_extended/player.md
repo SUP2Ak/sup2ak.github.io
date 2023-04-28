@@ -36,19 +36,16 @@ self.faction = faction
 - <p><u>Au niveau des setting des 'StateBags' ca ressemble a ceci :</u></p>
 
 ```lua
-local stateBag = Player(self.source).state
-	stateBag:set("identifier", self.identifier, true)
-	stateBag:set("license", self.license, true)
-	stateBag:set("job", self.job, true)
-	stateBag:set("group", self.group, true)
-	stateBag:set("name", self.name, true)
-	stateBag:set("metadata", self.metadata, true)
+Player(self.source).state:set("identifier", self.identifier, true)
+Player(self.source).state:set("license", self.license, true)
+Player(self.source).state:set("job", self.job, true)
+Player(self.source).state:set("group", self.group, true)
 -- ...
 ```
 - <p><u>Ajoutez ceci en dessous :</u></p>
 
 ```lua
-stateBag:set("faction", self.faction, true)
+Player(self.source).state:set("faction", self.faction, true)
 ``` 
 <h2><u>Etape 4 :</u></h2>
 
