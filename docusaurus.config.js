@@ -13,8 +13,8 @@ const config = {
   url: 'https://sup2ak.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: './',
-  deploymentBranch: 'main',
+  baseUrl: 'https://sup2ak.github.io/',
+  deploymentBranch: 'gh-pages',
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'sup2ak', // Usually your GitHub org/user name.
