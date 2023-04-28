@@ -18,7 +18,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'sup2ak', // Usually your GitHub org/user name.
   projectName: 'sup2ak.github.io', // Usually your repo name. organizationName: 'overextended', // Usually your GitHub org/user name.
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
