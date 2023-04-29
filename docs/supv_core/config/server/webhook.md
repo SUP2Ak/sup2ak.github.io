@@ -6,8 +6,11 @@ position: 1
 
 :::info
 Pour configurer le webhook, il vous suffit de modifier le fichier `webhook.lua` dans le dossier `config` de la ressource côté `server`.
-D'autre information seront intégrer si besoin
+D'autre information seront intégrer si besoin. Vous pouvez sinon **[cliquer ici](https://github.com/SUP2Ak/supv_core/blob/main/server/config/webhook.lua)** pour y accéder.
 :::
+
+- Acceder à la documentation server : **[cliquer ici](../../webhook/server)**
+- Acceder à la documentation client : **[cliquer ici](../../webhook/client)**
 
 ```lua
 return {
