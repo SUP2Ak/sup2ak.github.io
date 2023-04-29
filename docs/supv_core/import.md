@@ -1,5 +1,5 @@
 ---
-title: Pour utiliser le core
+title: Utilisation
 sidebar_position: 1
 slug: ./
 ---
