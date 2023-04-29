@@ -26,7 +26,7 @@ position: 1
 ```lua
 RegisterCommand('create:npc', function()
     local player = supv.player.get()
-    local coords = (player:getCoords(true) + vec4(1, 1, -1, 0)
+    local coords = (player:getCoords(true) + vec4(1, 1, -1, 0))
     local npc = supv.npc.new('s_m_y_cop_01', coords) -- create npc
     Wait(5000)
     npc = npc:remove() -- remove npc 5sec après sa création
