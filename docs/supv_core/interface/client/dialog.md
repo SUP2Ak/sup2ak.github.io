@@ -10,7 +10,7 @@ Des features sur la personnalisation des dialogues sont en cours de développeme
 
 * `supv.createDialog(data: table): return boolean`
     * `data: table`
-        * `title: string`
+        * `title?: string`
         * `subtitle?: string`
         * `description: string`
 
